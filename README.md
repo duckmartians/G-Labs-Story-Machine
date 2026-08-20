@@ -6,6 +6,12 @@
 
 <p align="center"><strong>English</strong> · <a href="README.vi.md">Tiếng Việt</a></p>
 
+<p align="center">
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img src="https://img.shields.io/badge/Download-macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS" /></a>
+  &nbsp;
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img src="https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" /></a>
+</p>
+
 Story Machine is a desktop app that turns an idea, a script, or a subtitle file into a finished documentary-style video — automatically.
 
 Give it a topic and it researches the story, writes the narration, plans every scene, generates the images and video clips, adds an AI voice-over and background music, and renders the final video. Already have a script or an `.srt` file? Feed it in and Story Machine builds the visuals around your own words, with per-scene timing locked to the narration.
@@ -41,13 +47,13 @@ The whole pipeline lives in one window — each step is its own page you can rev
 > Requires an Apple Silicon Mac (M1 or newer), macOS 12+.
 
 1. Download `StoryMachine-<version>-arm64.dmg` from the [Releases](../../releases) page.
-2. Open the DMG and drag **Story Machine** into **Applications**.
+2. Open the DMG and drag **G-Labs Story Machine** into **Applications**.
 3. The app is not notarized yet, so the first launch is blocked by Gatekeeper. Either:
    - **Right-click** the app → **Open** → **Open**, or
    - run in Terminal:
 
 ```bash
-xattr -dr com.apple.quarantine "/Applications/Story Machine.app"
+xattr -dr com.apple.quarantine "/Applications/G-Labs Story Machine.app"
 ```
 
 4. Launch the app and sign in.
@@ -59,7 +65,7 @@ xattr -dr com.apple.quarantine "/Applications/Story Machine.app"
 1. Download `StoryMachine-<version>-setup.exe` from the [Releases](../../releases) page.
 2. Run the installer. If Windows SmartScreen appears, click **More info** → **Run anyway**.
 3. Pick an install folder (or keep the default). Desktop and Start Menu shortcuts are created automatically.
-4. Launch **Story Machine** and sign in.
+4. Launch **G-Labs Story Machine** and sign in.
 
 ## Notes
 
