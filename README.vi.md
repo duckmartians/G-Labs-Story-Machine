@@ -1,10 +1,18 @@
-# Story Machine
+<p align="center">
+  <img src="docs/media/icon.png" width="120" alt="Story Machine icon" />
+</p>
 
-[English](README.md) · **Tiếng Việt**
+<h1 align="center">Story Machine</h1>
+
+<p align="center"><a href="README.md">English</a> · <strong>Tiếng Việt</strong></p>
 
 Story Machine là ứng dụng desktop biến một ý tưởng, một kịch bản, hoặc một file phụ đề thành video phong cách phim tài liệu hoàn chỉnh — hoàn toàn tự động.
 
 Chỉ cần đưa một chủ đề, app sẽ tự nghiên cứu câu chuyện, viết lời bình, lên kế hoạch từng cảnh, tạo ảnh và video, thêm giọng đọc AI cùng nhạc nền, rồi render ra video cuối cùng. Đã có sẵn kịch bản hoặc file `.srt`? Nạp vào và Story Machine dựng hình ảnh bám theo đúng lời của bạn, thời lượng từng cảnh khoá chính xác theo lời đọc.
+
+<p align="center">
+  <img src="docs/media/vi/modes.webp" width="820" alt="Chọn chế độ — Storyteller, Storyboard, Dubbing, Editor" />
+</p>
 
 ## Điểm nổi bật
 
@@ -17,6 +25,16 @@ Chỉ cần đưa một chủ đề, app sẽ tự nghiên cứu câu chuyện, 
 - **11 ngôn ngữ giao diện** (English, Tiếng Việt, हिन्दी, Türkçe, Português, 中文, اردو, বাংলা, Русский, Español, ไทย)
 
 Cần tài khoản và kết nối internet — đăng nhập ở lần mở đầu tiên. Nhà cung cấp LLM cấu hình trong phần Cài đặt sau khi đăng nhập.
+
+## Nhìn vào bên trong
+
+Toàn bộ quy trình nằm gọn trong một cửa sổ — mỗi bước là một trang riêng, bạn xem lại và chỉnh tay trước khi đi tiếp. Ảnh dưới đây từ một dự án thật, *The Final Ridge*.
+
+| Đặt đề bài | Tạo ảnh |
+| --- | --- |
+| ![Thiết lập](docs/media/vi/setup.webp) | ![Tạo ảnh](docs/media/vi/images.webp) |
+| **Tạo video** | **Render phim hoàn chỉnh** |
+| ![Tạo video](docs/media/vi/videos.webp) | ![Render](docs/media/vi/render.webp) |
 
 ## Cài đặt trên macOS
 

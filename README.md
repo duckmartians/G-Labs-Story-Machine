@@ -1,10 +1,18 @@
-# Story Machine
+<p align="center">
+  <img src="docs/media/icon.png" width="120" alt="Story Machine icon" />
+</p>
 
-**English** · [Tiếng Việt](README.vi.md)
+<h1 align="center">Story Machine</h1>
+
+<p align="center"><strong>English</strong> · <a href="README.vi.md">Tiếng Việt</a></p>
 
 Story Machine is a desktop app that turns an idea, a script, or a subtitle file into a finished documentary-style video — automatically.
 
 Give it a topic and it researches the story, writes the narration, plans every scene, generates the images and video clips, adds an AI voice-over and background music, and renders the final video. Already have a script or an `.srt` file? Feed it in and Story Machine builds the visuals around your own words, with per-scene timing locked to the narration.
+
+<p align="center">
+  <img src="docs/media/en/modes.webp" width="820" alt="Choose a mode — Storyteller, Storyboard, Dubbing, Editor" />
+</p>
 
 ## Highlights
 
@@ -17,6 +25,16 @@ Give it a topic and it researches the story, writes the narration, plans every s
 - **11 UI languages** (English, Tiếng Việt, हिन्दी, Türkçe, Português, 中文, اردو, বাংলা, Русский, Español, ไทย)
 
 An account and an internet connection are required — sign in on first launch. An LLM provider is configured in Settings after login.
+
+## A look inside
+
+The whole pipeline lives in one window — each step is its own page you can review and fix by hand before moving on. Screenshots below are from a real project, *The Final Ridge*.
+
+| Set up the project | Generate the images |
+| --- | --- |
+| ![Setup](docs/media/en/setup.webp) | ![Images](docs/media/en/images.webp) |
+| **Generate the videos** | **Render the final film** |
+| ![Videos](docs/media/en/videos.webp) | ![Render](docs/media/en/render.webp) |
 
 ## Install on macOS
 
