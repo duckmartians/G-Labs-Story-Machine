@@ -17,7 +17,7 @@
 
 ## Cài đặt
 
-### Bước 1 — Chọn đúng bản cho máy của bạn
+### Bước 1 - Chọn đúng bản cho máy của bạn
 
 Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest)**, rồi chọn tệp theo đúng máy (`<version>` là số phiên bản, ví dụ `2.0.6`):
 
@@ -33,14 +33,14 @@ Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Lab
 
 > Tải nhầm bản **Intel** cho máy chip Apple thì vẫn chạy được (qua Rosetta, chậm hơn); còn tải nhầm bản **arm64** cho máy Intel sẽ **không mở được**. Nên chọn đúng.
 
-### Bước 2 — Cài đặt
+### Bước 2 - Cài đặt
 
 <details open>
 <summary><b>🪟 Trên Windows</b></summary>
 
 1. Mở tệp **`StoryMachine-<version>-setup.exe`** vừa tải.
-2. Nếu hiện bảng **"Windows protected your PC"** (SmartScreen): bấm **More info** → **Run anyway**. *(App chưa mua chứng chỉ ký của Microsoft nên bị cảnh báo — không phải virus.)*
-3. Làm theo trình cài đặt — giữ thư mục mặc định hoặc chọn thư mục khác. Lối tắt trên Desktop và Start Menu được tạo sẵn.
+2. Nếu hiện bảng **"Windows protected your PC"** (SmartScreen): bấm **More info** → **Run anyway**. *(App chưa mua chứng chỉ ký của Microsoft nên bị cảnh báo - không phải virus.)*
+3. Làm theo trình cài đặt - giữ thư mục mặc định hoặc chọn thư mục khác. Lối tắt trên Desktop và Start Menu được tạo sẵn.
 4. Mở **G-Labs Story Machine** từ **Start Menu** hoặc lối tắt trên **Desktop**.
 
 </details>
@@ -58,35 +58,35 @@ Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Lab
 
 </details>
 
-FFmpeg đã đóng gói sẵn trong cả hai bản — không cần cài thêm gì.
+FFmpeg đã đóng gói sẵn trong cả hai bản - không cần cài thêm gì.
 
-### Bước 3 — Đăng nhập (tặng kèm gói MAX của G-Labs)
+### Bước 3 - Đăng nhập (tặng kèm gói MAX của G-Labs)
 
-**Story Machine không bán riêng.** App mở cho **tài khoản G-Labs có gói MAX còn hạn**: đăng nhập Google bằng chính tài khoản đó, máy chủ bản quyền kiểm tra gói mỗi lần. Gói MAX mua qua G-Labs Studio, Auto Flow hay Auto Vibes đều là gói của cùng một tài khoản G-Labs. Nếu tài khoản chưa có MAX, app hiện **"Cần gói MAX"** — gia hạn hoặc nâng cấp rồi bấm **Thử lại**.
+**Story Machine không bán riêng.** App mở cho **tài khoản G-Labs có gói MAX còn hạn**: đăng nhập Google bằng chính tài khoản đó, máy chủ bản quyền kiểm tra gói mỗi lần. Gói MAX mua qua G-Labs Studio, Auto Flow hay Auto Vibes đều là gói của cùng một tài khoản G-Labs. Nếu tài khoản chưa có MAX, app hiện **"Cần gói MAX"** - gia hạn hoặc nâng cấp rồi bấm **Thử lại**.
 
 - **Storyteller** mở cho mọi tài khoản MAX.
 - Chế độ **Editor** và hướng kể chuyện **Thế giới động vật** mở riêng theo từng tài khoản. Khi chưa mở, thẻ Editor hiện **"Chưa mở"** và không có lựa chọn Thế giới động vật.
 - App cần Internet để đăng nhập và nhận bộ prompt, và phải kiểm tra lại gói ít nhất mỗi **72 giờ**. Hết hạn gói thì app khoá lại; dự án trên máy vẫn giữ nguyên.
 
-Ứng dụng **tự cập nhật**: nó kiểm tra GitHub Releases và tải bản mới ngay trong app — trên Windows nó chạy trình cài đặt mới, trên macOS nó mở tệp `.dmg` mới để bạn kéo vào Applications.
+Ứng dụng **tự cập nhật**: nó kiểm tra GitHub Releases và tải bản mới ngay trong app - trên Windows nó chạy trình cài đặt mới, trên macOS nó mở tệp `.dmg` mới để bạn kéo vào Applications.
 
 ### Cần chuẩn bị thêm
 
 Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Trước dự án đầu tiên, bạn cần:
 
-- **Một nhà cung cấp LLM** — Claude CLI, Antigravity CLI, Codex CLI (đã đăng nhập trên máy) hoặc 9Router.
-- **[G-Labs Studio](https://github.com/duckmartians/G-Labs-Studio)** đang chạy với Webhook API — để tạo ảnh và video.
-- **G-Labs Voiceover** hoặc **G-Labs Voice Studio** — để đọc lời bình (không cần nếu bạn bắt đầu từ file `.srt` hoặc nạp file thuyết minh của mình).
+- **Một nhà cung cấp LLM** - Claude CLI, Antigravity CLI, Codex CLI (đã đăng nhập trên máy) hoặc 9Router.
+- **[G-Labs Studio](https://github.com/duckmartians/G-Labs-Studio)** đang chạy với Webhook API - để tạo ảnh và video.
+- **G-Labs Voiceover** hoặc **G-Labs Voice Studio** - để đọc lời bình (không cần nếu bạn bắt đầu từ file `.srt` hoặc nạp file thuyết minh của mình).
 
 ---
 
 ## Lần chạy đầu tiên
 
 1. **Mở ứng dụng và đăng nhập bằng Google** với tài khoản G-Labs gói MAX.
-2. **Chọn chế độ** ở màn hình đầu — **Storyteller** (video kể chuyện / tài liệu) hoặc **Editor** (cắt dựng video bất kỳ, nếu đã mở).
+2. **Chọn chế độ** ở màn hình đầu - **Storyteller** (video kể chuyện / tài liệu) hoặc **Editor** (cắt dựng video bất kỳ, nếu đã mở).
 3. **Mở Cài đặt** (thanh bên trái) và nối công cụ: chọn nhà cung cấp LLM, rồi dán địa chỉ webhook + API key của G-Labs Studio (ảnh/video) và của Voiceover hoặc Voice Studio (giọng đọc).
 4. **Đặt đề bài ở trang Thiết lập**: chọn cách bắt đầu (chủ đề, kịch bản, phụ đề hoặc storyboard), rồi tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu và phong cách ảnh.
-5. **Đi qua từng trang** — Cốt truyện → Phân tích → Tạo ảnh → Tạo video → Giọng đọc → Tối ưu SEO → Render. Ở mỗi trang bạn sửa, tạo lại hoặc nạp file của mình trước khi sang bước sau.
+5. **Đi qua từng trang** - Cốt truyện → Phân tích → Tạo ảnh → Tạo video → Giọng đọc → Tối ưu SEO → Render. Ở mỗi trang bạn sửa, tạo lại hoặc nạp file của mình trước khi sang bước sau.
 6. **Render** ra MP4 hoàn chỉnh (video hoặc slideshow), hoặc **Xuất CapCut** để chỉnh tay.
 
 ---
@@ -95,16 +95,16 @@ Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Tr
 
 ![G-Labs Story Machine](docs/media/vi/images.webp)
 
-- **Bốn cách bắt đầu** — từ **chủ đề** (AI tự nghiên cứu, viết cốt truyện và toàn bộ lời bình), từ **kịch bản** của bạn (tự chia câu và đọc thành giọng), từ **phụ đề** `.srt` (mốc thời gian của file quyết định từng cảnh, không cần tạo giọng), hoặc từ **storyboard** — kịch bản thoại, nhân vật nhất quán bằng ảnh tham chiếu.
-- **Hai chế độ chạy** — **Chất lượng cao** (qua ảnh từng cảnh) và **Tạo nhanh** (thẳng chữ → video, bỏ bước ảnh; nhanh, tiết kiệm).
-- **Mỗi bước một trang** — từng bước của quy trình là một trang riêng để bạn xem lại, sửa, tạo lại hoặc nạp ảnh/clip của mình trước khi đi tiếp.
-- **Ba hướng dựng hình** — có nhân vật xuất hiện, minh hoạ không người, hoặc **phim tài liệu thế giới động vật** chỉ có động vật (khi đã mở).
-- **Hơn 40 phong cách ảnh mẫu** — hoặc tự mô tả phong cách rồi lưu lại dùng sau.
-- **Dịch & biên tập** — dịch hoặc trau chuốt kịch bản/phụ đề bằng LLM trước khi sản xuất, chuyển qua lại bản gốc ↔ bản dịch.
-- **Giọng đọc, nhạc nền & phòng dựng** — thanh thời gian, tự hạ nhạc nền khi có lời, hiện/tắt dần, khớp video với giọng (giữ khung cuối, lặp hoặc làm chậm), phụ đề chèn vào hình; dựng video hoặc slideshow có lia/phóng, hoặc xuất draft CapCut.
-- **Tối ưu SEO** — tiêu đề, mô tả, tag và ý tưởng ảnh bìa cho YouTube.
-- **Điểm khôi phục** — quay về một trạng thái trước của dự án; trước khi quay về app tạo một điểm mới, nên thao tác này cũng lùi lại được.
-- **11 ngôn ngữ giao diện** — English, Tiếng Việt, हिन्दी, Türkçe, Português, 简体中文, اردو, বাংলা, Русский, Español, ไทย.
+- **Bốn cách bắt đầu** - từ **chủ đề** (AI tự nghiên cứu, viết cốt truyện và toàn bộ lời bình), từ **kịch bản** của bạn (tự chia câu và đọc thành giọng), từ **phụ đề** `.srt` (mốc thời gian của file quyết định từng cảnh, không cần tạo giọng), hoặc từ **storyboard** - kịch bản thoại, nhân vật nhất quán bằng ảnh tham chiếu.
+- **Hai chế độ chạy** - **Chất lượng cao** (qua ảnh từng cảnh) và **Tạo nhanh** (thẳng chữ → video, bỏ bước ảnh; nhanh, tiết kiệm).
+- **Mỗi bước một trang** - từng bước của quy trình là một trang riêng để bạn xem lại, sửa, tạo lại hoặc nạp ảnh/clip của mình trước khi đi tiếp.
+- **Ba hướng dựng hình** - có nhân vật xuất hiện, minh hoạ không người, hoặc **phim tài liệu thế giới động vật** chỉ có động vật (khi đã mở).
+- **Hơn 40 phong cách ảnh mẫu** - hoặc tự mô tả phong cách rồi lưu lại dùng sau.
+- **Dịch & biên tập** - dịch hoặc trau chuốt kịch bản/phụ đề bằng LLM trước khi sản xuất, chuyển qua lại bản gốc ↔ bản dịch.
+- **Giọng đọc, nhạc nền & phòng dựng** - thanh thời gian, tự hạ nhạc nền khi có lời, hiện/tắt dần, khớp video với giọng (giữ khung cuối, lặp hoặc làm chậm), phụ đề chèn vào hình; dựng video hoặc slideshow có lia/phóng, hoặc xuất draft CapCut.
+- **Tối ưu SEO** - tiêu đề, mô tả, tag và ý tưởng ảnh bìa cho YouTube.
+- **Điểm khôi phục** - quay về một trạng thái trước của dự án; trước khi quay về app tạo một điểm mới, nên thao tác này cũng lùi lại được.
+- **11 ngôn ngữ giao diện** - English, Tiếng Việt, हिन्दी, Türkçe, Português, 简体中文, اردو, বাংলা, Русский, Español, ไทย.
 
 ---
 
@@ -112,11 +112,11 @@ Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Tr
 
 Màn hình đầu có hai chế độ. Cả hai giữ nguyên khi đã mở, nên chuyển qua lại không mất việc đang làm; nút Home đưa bạn về màn chọn.
 
-### 🎬 Storyteller — Thiết lập
+### 🎬 Storyteller - Thiết lập
 
 ![Thiết lập](docs/media/vi/setup.webp)
 
-Chọn cách bắt đầu — **Tạo video từ chủ đề**, **từ kịch bản**, **từ phụ đề** hoặc **từ storyboard** — và chế độ chạy (**Chất lượng cao** hoặc **Tạo nhanh**). Sau đó đặt tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu và phong cách ảnh. Các trang tiếp theo tuỳ cách bắt đầu:
+Chọn cách bắt đầu - **Tạo video từ chủ đề**, **từ kịch bản**, **từ phụ đề** hoặc **từ storyboard** - và chế độ chạy (**Chất lượng cao** hoặc **Tạo nhanh**). Sau đó đặt tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu và phong cách ảnh. Các trang tiếp theo tuỳ cách bắt đầu:
 
 | Bắt đầu từ | Các trang |
 |---|---|
@@ -135,7 +135,7 @@ LLM chia câu chuyện thành cảnh, mỗi cảnh có thời lượng và promp
 
 ![Tạo video](docs/media/vi/videos.webp)
 
-Biến ảnh cảnh thành clip bằng model video của G-Labs Studio, mỗi cảnh có prompt chuyển động riêng. Chọn nhanh tất cả, vài cảnh đầu/cuối, ngẫu nhiên hoặc xen kẽ để chỉ tạo video cho một phần — phần còn lại vẫn render được dạng ảnh.
+Biến ảnh cảnh thành clip bằng model video của G-Labs Studio, mỗi cảnh có prompt chuyển động riêng. Chọn nhanh tất cả, vài cảnh đầu/cuối, ngẫu nhiên hoặc xen kẽ để chỉ tạo video cho một phần - phần còn lại vẫn render được dạng ảnh.
 
 ### 🎞 Giọng đọc, Tối ưu SEO &amp; Render
 
@@ -149,7 +149,7 @@ Bắt đầu từ một kịch bản thoại: app trích nhân vật, bối cả
 
 ### ✂️ Editor *(mở riêng)*
 
-Cắt dựng video bất kỳ: kéo thả hàng loạt, cắt–tách–đổi thứ tự trên timeline có sóng âm. Tự khớp clip theo câu phụ đề, khoảng lặng dò được hoặc lưới nhịp BPM; nhạc nền tự hạ dưới giọng đọc; ảnh có pan/zoom; phụ đề burn-in chỉnh được kiểu; render xếp hàng chờ.
+Cắt dựng video bất kỳ: kéo thả hàng loạt, cắt-tách-đổi thứ tự trên timeline có sóng âm. Tự khớp clip theo câu phụ đề, khoảng lặng dò được hoặc lưới nhịp BPM; nhạc nền tự hạ dưới giọng đọc; ảnh có pan/zoom; phụ đề burn-in chỉnh được kiểu; render xếp hàng chờ.
 
 ---
 
@@ -166,18 +166,18 @@ Bạn có thể đổi thư mục lưu trong **Cài đặt → Thư mục lưu o
 
 ## Khắc phục sự cố
 
-**Đăng nhập xong hiện "Cần gói MAX"** — tài khoản chưa có gói MAX còn hạn. Gia hạn hoặc nâng cấp rồi bấm **Thử lại** (app kiểm tra lại với máy chủ).
+**Đăng nhập xong hiện "Cần gói MAX"** - tài khoản chưa có gói MAX còn hạn. Gia hạn hoặc nâng cấp rồi bấm **Thử lại** (app kiểm tra lại với máy chủ).
 
-**Thẻ Editor ghi "Chưa mở" / không có lựa chọn Thế giới động vật** — hai phần này mở riêng theo tài khoản; tài khoản của bạn chưa được mở.
+**Thẻ Editor ghi "Chưa mở" / không có lựa chọn Thế giới động vật** - hai phần này mở riêng theo tài khoản; tài khoản của bạn chưa được mở.
 
-**"Server không phản hồi — kiểm tra webhook đã chạy chưa"** — mở G-Labs Studio (và Voiceover / Voice Studio cho giọng đọc), bật webhook, rồi kiểm tra lại địa chỉ trong Cài đặt.
+**"Server không phản hồi - kiểm tra webhook đã chạy chưa"** - mở G-Labs Studio (và Voiceover / Voice Studio cho giọng đọc), bật webhook, rồi kiểm tra lại địa chỉ trong Cài đặt.
 
-**"Webhook từ chối khoá API"** — chép lại API key từ trang Webhook API của G-Labs Studio vào Cài đặt.
+**"Webhook từ chối khoá API"** - chép lại API key từ trang Webhook API của G-Labs Studio vào Cài đặt.
 
-**Một cảnh báo webhook không còn task** — webhook đã khởi động lại hoặc task hết hạn; bấm tạo lại ở cảnh đó.
+**Một cảnh báo webhook không còn task** - webhook đã khởi động lại hoặc task hết hạn; bấm tạo lại ở cảnh đó.
 
-**Windows chặn ở "Windows protected your PC"** — bấm **More info → Run anyway**. App chưa mua chứng chỉ ký của Microsoft nên bị cảnh báo, không phải virus.
+**Windows chặn ở "Windows protected your PC"** - bấm **More info → Run anyway**. App chưa mua chứng chỉ ký của Microsoft nên bị cảnh báo, không phải virus.
 
-**macOS báo ứng dụng bị hỏng / không mở được** — app chưa được Apple ký. Chuột phải → **Open** ở lần đầu, hoặc chạy `xattr -dr com.apple.quarantine "/Applications/G-Labs Story Machine.app"`.
+**macOS báo ứng dụng bị hỏng / không mở được** - app chưa được Apple ký. Chuột phải → **Open** ở lần đầu, hoặc chạy `xattr -dr com.apple.quarantine "/Applications/G-Labs Story Machine.app"`.
 
-**Một bản cập nhật không cài được** — tải bản mới nhất thủ công từ [Releases](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest).
+**Một bản cập nhật không cài được** - tải bản mới nhất thủ công từ [Releases](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest).
