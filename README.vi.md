@@ -23,9 +23,9 @@ Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Lab
 
 | Máy của bạn | Tải tệp | Ghi chú |
 |---|---|---|
-| 🪟 **Windows 10/11 (64-bit)** | `StoryMachine-<version>-setup.exe` | Trình cài đặt cho mọi PC Windows |
-| 🍎 **Mac chip Apple (M1/M2/M3/M4)** | `StoryMachine-<version>-arm64.dmg` | macOS 12 trở lên |
-| 🍎 **Mac chip Intel** | `StoryMachine-<version>-intel.dmg` | Mac đời cũ |
+| 🪟 **Windows 10/11 (64-bit)** | [`StoryMachine-<version>-setup.exe`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Trình cài đặt cho mọi PC Windows |
+| 🍎 **Mac chip Apple (M1/M2/M3/M4)** | [`StoryMachine-<version>-arm64.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | macOS 12 trở lên |
+| 🍎 **Mac chip Intel** | [`StoryMachine-<version>-intel.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Mac đời cũ |
 
 **Không chắc Mac của bạn chip gì?** Bấm biểu tượng  ở góc trên bên trái → **About This Mac**:
 - Có dòng **Chip** ghi "Apple M1 / M2 / M3…" → tải bản **arm64**.

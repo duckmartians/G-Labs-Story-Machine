@@ -23,9 +23,9 @@ Download the latest build from **[Releases](https://github.com/duckmartians/G-La
 
 | Your machine | Download | Notes |
 |---|---|---|
-| 🪟 **Windows 10/11 (64-bit)** | `StoryMachine-<version>-setup.exe` | Installer for any Windows PC |
-| 🍎 **Mac with Apple chip (M1/M2/M3/M4)** | `StoryMachine-<version>-arm64.dmg` | macOS 12 or later |
-| 🍎 **Mac with Intel chip** | `StoryMachine-<version>-intel.dmg` | Older Macs |
+| 🪟 **Windows 10/11 (64-bit)** | [`StoryMachine-<version>-setup.exe`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Installer for any Windows PC |
+| 🍎 **Mac with Apple chip (M1/M2/M3/M4)** | [`StoryMachine-<version>-arm64.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | macOS 12 or later |
+| 🍎 **Mac with Intel chip** | [`StoryMachine-<version>-intel.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Older Macs |
 
 **Not sure which chip your Mac has?** Click the  menu (top-left) → **About This Mac**:
 - A **Chip** line reading "Apple M1 / M2 / M3…" → download the **arm64** build.
