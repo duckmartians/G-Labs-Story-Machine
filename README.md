@@ -62,7 +62,7 @@ FFmpeg is bundled in both builds - nothing extra to install.
 
 ### Step 3 - Sign in (included with the G-Labs MAX plan)
 
-**Story Machine is not sold on its own.** It opens for **your account on an active MAX plan**: sign in with Google using that account, and the license server checks your plan every time. A MAX plan bought through G-Labs Studio, Auto Flow or Auto Vibes is the same plan on your account. If the account isn't on MAX, the app shows **"MAX plan required"** - renew or upgrade, then press **Try again**.
+**Story Machine is not sold on its own.** It opens for **your account on an active G-Labs Studio MAX plan**: sign in with Google using that account, and the license server checks your plan every time. A MAX plan bought through G-Labs Studio, Auto Flow or Auto Vibes counts too, since it includes G-Labs Studio Max. If the account isn't on MAX, the app shows **"MAX plan required"** - renew or upgrade, then press **Try again**.
 
 - **Storyteller** is open to every MAX account.
 - The **Editor** mode and the **Wildlife documentary** approach are unlocked separately per account. Until then the Editor card shows **"Not open yet"**, and the Wildlife option is not offered.
