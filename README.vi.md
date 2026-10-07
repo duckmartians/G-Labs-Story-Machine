@@ -62,7 +62,7 @@ FFmpeg đã đóng gói sẵn trong cả hai bản - không cần cài thêm gì
 
 ### Bước 3 - Đăng nhập (tặng kèm gói MAX của G-Labs)
 
-**Story Machine không bán riêng.** App mở cho **tài khoản G-Labs có gói MAX còn hạn**: đăng nhập Google bằng chính tài khoản đó, máy chủ bản quyền kiểm tra gói mỗi lần. Gói MAX mua qua G-Labs Studio, Auto Flow hay Auto Vibes đều là gói của cùng một tài khoản G-Labs. Nếu tài khoản chưa có MAX, app hiện **"Cần gói MAX"** - gia hạn hoặc nâng cấp rồi bấm **Thử lại**.
+**Story Machine không bán riêng.** App mở cho **tài khoản của bạn có gói MAX còn hạn**: đăng nhập Google bằng chính tài khoản đó, máy chủ bản quyền kiểm tra gói mỗi lần. Gói MAX mua qua G-Labs Studio, Auto Flow hay Auto Vibes đều là gói trên cùng tài khoản của bạn. Nếu tài khoản chưa có MAX, app hiện **"Cần gói MAX"** - gia hạn hoặc nâng cấp rồi bấm **Thử lại**.
 
 - **Storyteller** mở cho mọi tài khoản MAX.
 - Chế độ **Editor** và hướng kể chuyện **Thế giới động vật** mở riêng theo từng tài khoản. Khi chưa mở, thẻ Editor hiện **"Chưa mở"** và không có lựa chọn Thế giới động vật.
@@ -82,7 +82,7 @@ Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Tr
 
 ## Lần chạy đầu tiên
 
-1. **Mở ứng dụng và đăng nhập bằng Google** với tài khoản G-Labs gói MAX.
+1. **Mở ứng dụng và đăng nhập bằng Google** với tài khoản của bạn có gói MAX.
 2. **Chọn chế độ** ở màn hình đầu - **Storyteller** (video kể chuyện / tài liệu) hoặc **Editor** (cắt dựng video bất kỳ, nếu đã mở).
 3. **Mở Cài đặt** (thanh bên trái) và nối công cụ: chọn nhà cung cấp LLM, rồi dán địa chỉ webhook + API key của G-Labs Studio (ảnh/video) và của Voiceover hoặc Voice Studio (giọng đọc).
 4. **Đặt đề bài ở trang Thiết lập**: chọn cách bắt đầu (chủ đề, kịch bản, phụ đề hoặc storyboard), rồi tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu và phong cách ảnh.
