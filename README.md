@@ -74,7 +74,7 @@ The app **updates itself**: it checks GitHub Releases and downloads the new vers
 Story Machine orchestrates; it does not generate media by itself. Before your first project, have:
 
 - **An LLM provider** - Claude CLI, Antigravity CLI, Codex CLI (signed in on your computer) or 9Router.
-- **[G-Labs Studio](https://github.com/duckmartians/G-Labs-Studio)** running with its Webhook API - for images and video.
+- **[G-Labs Studio](https://github.com/duckmartians/G-Labs-Studio)** running with its Webhook API - for images and video. Use **5.0.7 or later** for the full, always up-to-date model list (older versions still work with the list built into the app).
 - **G-Labs Voiceover** or **G-Labs Voice Studio** - for narration (not needed when you start from an `.srt` file, or if you import your own voiceover).
 
 ---
@@ -100,6 +100,7 @@ Story Machine orchestrates; it does not generate media by itself. Before your fi
 - **Outfits by scene** - the AI gives characters a different outfit when the story calls for it (a new day, rain, work, a festival...) and draws each outfit by editing the character's own image, so the face stays the same.
 - **Two ways to picture the story** - with recurring characters, or people-free illustrative b-roll (objects, places, light).
 - **61 sample image styles** - from documentary photography, 3D animation and watercolour to 11 stick-figure looks (historical cartoon, survival thriller, amber noir, prehistoric...); or describe your own and save it for later.
+- **Every model of G-Labs Studio** - images and video from Google Flow, Google Pics / Vids, Grok, Meta AI, GPT Image and Dreamina (pick each Dreamina model). The list follows G-Labs Studio by itself, and when Google retires a model the app switches to its replacement.
 - **Translate & copy-edit** - translate or polish a script/subtitle with the LLM before production, with an original ↔ translation toggle.
 - **Voiceover, music & render room** - timeline, music ducking under the voice, fade in/out, video-to-voice fitting (freeze last frame, loop or slow down), burned-in subtitles; render a video or a pan/zoom slideshow, or export a CapCut draft.
 - **SEO** - title, description, tags and thumbnail ideas for YouTube.
@@ -114,7 +115,7 @@ Story Machine orchestrates; it does not generate media by itself. Before your fi
 
 ![Setup](docs/media/en/setup.webp)
 
-Pick how to start - **Write a script from a topic**, **Make a video from a script**, **from subtitles** or **from a storyboard** - and the run mode (**High quality** or **Fast**). Then set aspect ratio, length, output language, tone, narrative approach and image style. The pages that follow depend on how you started:
+Pick how to start - **Write a script from a topic**, **Make a video from a script**, **from subtitles** or **from a storyboard** - and the run mode (**High quality** or **Fast**). Then set aspect ratio, length, output language, tone, narrative approach and image style. Making a video like one you have seen? Drop it into **Pacing from a reference video** (optional): the app measures how long its shots last and plans your scenes to the same rhythm. The pages that follow depend on how you started:
 
 | Start from | Pages |
 |---|---|

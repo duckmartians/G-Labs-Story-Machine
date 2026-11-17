@@ -74,7 +74,7 @@ FFmpeg đã đóng gói sẵn trong cả hai bản - không cần cài thêm gì
 Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Trước dự án đầu tiên, bạn cần:
 
 - **Một nhà cung cấp LLM** - Claude CLI, Antigravity CLI, Codex CLI (đã đăng nhập trên máy) hoặc 9Router.
-- **[G-Labs Studio](https://github.com/duckmartians/G-Labs-Studio)** đang chạy với Webhook API - để tạo ảnh và video.
+- **[G-Labs Studio](https://github.com/duckmartians/G-Labs-Studio)** đang chạy với Webhook API - để tạo ảnh và video. Nên dùng bản **5.0.7 trở lên** để có đủ danh sách model, luôn cập nhật (bản cũ vẫn chạy với danh sách có sẵn trong app).
 - **G-Labs Voiceover** hoặc **G-Labs Voice Studio** - để đọc lời bình (không cần nếu bạn bắt đầu từ file `.srt` hoặc nạp file thuyết minh của mình).
 
 ---
@@ -100,6 +100,7 @@ Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Tr
 - **Trang phục theo cảnh** - AI chia bộ đồ cho từng cảnh (ngày mới, trời mưa, đi làm, lễ hội...) và vẽ mỗi bộ bằng cách sửa trên ảnh gốc của nhân vật, nên gương mặt giữ nguyên.
 - **Hai hướng dựng hình** - có nhân vật xuất hiện, hoặc minh hoạ không người (đồ vật, khung cảnh, ánh sáng).
 - **61 phong cách ảnh mẫu** - từ phim tài liệu, hoạt hình 3D, màu nước đến 11 kiểu người que (hoạt hình lịch sử, truyện sinh tồn, amber noir, tiền sử...); hoặc tự mô tả phong cách rồi lưu lại dùng sau.
+- **Mọi model của G-Labs Studio** - ảnh và video của Google Flow, Google Pics / Vids, Grok, Meta AI, GPT Image và Dreamina (chọn được từng model Dreamina). Danh sách tự cập nhật theo G-Labs Studio, Google ngừng model nào thì app tự chuyển sang model thay thế.
 - **Dịch & biên tập** - dịch hoặc trau chuốt kịch bản/phụ đề bằng LLM trước khi sản xuất, chuyển qua lại bản gốc ↔ bản dịch.
 - **Giọng đọc, nhạc nền & phòng dựng** - thanh thời gian, tự hạ nhạc nền khi có lời, hiện/tắt dần, khớp video với giọng (giữ khung cuối, lặp hoặc làm chậm), phụ đề chèn vào hình; dựng video hoặc slideshow có lia/phóng, hoặc xuất draft CapCut.
 - **Tối ưu SEO** - tiêu đề, mô tả, tag và ý tưởng ảnh bìa cho YouTube.
@@ -114,7 +115,7 @@ Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Tr
 
 ![Thiết lập](docs/media/vi/setup.webp)
 
-Chọn cách bắt đầu - **Viết kịch bản từ chủ đề**, **Tạo video từ kịch bản**, **từ phụ đề** hoặc **từ storyboard** - và chế độ chạy (**Chất lượng cao** hoặc **Tạo nhanh**). Sau đó đặt tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu, hướng kể chuyện và phong cách ảnh. Các trang tiếp theo tuỳ cách bắt đầu:
+Chọn cách bắt đầu - **Viết kịch bản từ chủ đề**, **Tạo video từ kịch bản**, **từ phụ đề** hoặc **từ storyboard** - và chế độ chạy (**Chất lượng cao** hoặc **Tạo nhanh**). Sau đó đặt tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu, hướng kể chuyện và phong cách ảnh. Làm video theo một video có sẵn? Thả video đó vào **Nhịp cắt cảnh theo video mẫu** (không bắt buộc): app đo mỗi shot dài bao lâu rồi lập cảnh cho video của bạn theo đúng nhịp ấy. Các trang tiếp theo tuỳ cách bắt đầu:
 
 | Bắt đầu từ | Các trang |
 |---|---|
